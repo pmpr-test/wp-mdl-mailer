@@ -1,0 +1,30 @@
+{
+  "name": "pmpr-mdl/wp-mdl-mailer",
+  "type": "project",
+  "license": "proprietary",
+  "description": "SMTP Mailer Module for Wordpress",
+  "keywords": [
+    "wordpress",
+    "package"
+  ],
+  "require": {
+    "php": ">=8.2",
+    "pmpr-cmn/wp-cmn-foundation": "~1.4"
+  },
+  "prod-require": {
+    "php": "8.2",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Module\\Mailer\\": "src/Pmpr/Module/Mailer"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "tag": "1.2.20",
+  "timestamp": "1726343072"
+}
