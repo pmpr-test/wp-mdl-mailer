@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             66eae89ce2e09             |
+    |             670517696a71a             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Mailer\Generic; class Generic extends Common { public function mameiwsayuyquoeq() { if (!("\x67\145\x6e\145\162\x69\x63" === Setting::symcgieuakksimmu()->guseqygmqcgeyigi())) { goto igymseewwyiocoug; } Engine::symcgieuakksimmu(); igymseewwyiocoug: } }
+ namespace Pmpr\Module\Mailer\Generic; use PHPMailer\PHPMailer\PHPMailer; use Pmpr\Module\Mailer\Engine; class Generic extends Engine { public function ossgymsyuaouywqg(PHPMailer $ockoeumsksqeoiyo) : PHPMailer { $ockoeumsksqeoiyo->Host = $this->weysguygiseoukqw(Setting::gwiykwuygaugqcyu, Setting::qqkokmwimomggggu); $ockoeumsksqeoiyo->SMTPAuth = (bool) $this->weysguygiseoukqw(Setting::mwigcmkwgwygwssu); if (!$ockoeumsksqeoiyo->SMTPAuth) { goto qwigomakwmyiwkgo; } $ockoeumsksqeoiyo->Username = $this->weysguygiseoukqw(Setting::geykwwgimueicgig); $ockoeumsksqeoiyo->Password = $this->weysguygiseoukqw(Setting::yyecgkgguoiwyqos); qwigomakwmyiwkgo: return parent::ossgymsyuaouywqg($ockoeumsksqeoiyo); } }
