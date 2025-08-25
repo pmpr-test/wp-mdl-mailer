@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             68aca8fc55d87             |
+    |             68aca9369c76c             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Mailer\Setting; use Pmpr\Common\Foundation\FormGenerator\Backend\Setting\Segment; class SettingSegment extends Segment { public function ikcgmcycisiccyuc() { $this->setting = Setting::symcgieuakksimmu(); } }
